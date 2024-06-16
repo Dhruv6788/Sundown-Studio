@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>CRUD APP | SIGN IN</title>
+    <link rel="stylesheet" href="../css/login.css" />
+</head>
+
+<body>
+    <main>
+        <div id="page1">
+            <nav>
+                <div>
+                    <p>Welcome Back</p>
+                </div>
+            </nav>
+            <div id="content">
+                <div id="left">
+                    <img src="../assets/sideImg.svg" alt="" />
+                </div>
+                <div id="right">
+                    <h1>Sign In</h1>
+                    <p>New User? <a href="../pages/Signup.html">Register here</a></p>
+                    <div>
+                        <input type="text" id="email" placeholder="Email address" />
+                        <input type="password" id="email" placeholder="Password" />
+                        <div id="forget">
+                            <p>Forgot password?</p>
+                        </div>
+                        <button id="signinbtn" onclick="redirectMe()"><a href="./Dashboard.html"
+                                style="color: white; text-decoration: none;">Sign In</a></button>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <h1>Sundown Studio</h1>
+            </div>
+        </div>
+    </main>
+</body>
+<script>
+    function redirectMe() {
+        window.location(".Dashboard.html")
+    }
+</script>
+
+</html>

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD APP | HOMEPAGE</title>
+    <link rel="stylesheet" href="../css/dashboard.css" />
+</head>
+
+<body>
+    <main>
+        <div id="page1">
+            <div id="container">
+                <div id="sidebar">
+                    <div id="logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <defs>
+                                <linearGradient id="BG1" x1="100%" x2="50%" y1="9.946%" y2="50%">
+                                    <stop offset="0%" stop-color="#007867"></stop>
+                                    <stop offset="100%" stop-color="#00A76F"></stop>
+                                </linearGradient>
+                                <linearGradient id="BG2" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#5BE49B"></stop>
+                                    <stop offset="100%" stop-color="#00A76F"></stop>
+                                </linearGradient>
+                                <linearGradient id="BG3" x1="50%" x2="50%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#5BE49B"></stop>
+                                    <stop offset="100%" stop-color="#00A76F"></stop>
+                                </linearGradient>
+                            </defs>
+                            <g fill="#00A76F" fill-rule="evenodd" stroke="none" stroke-width="1">
+                                <path fill="url(#BG1)"
+                                    d="M183.168 285.573l-2.918 5.298-2.973 5.363-2.846 5.095-2.274 4.043-2.186 3.857-2.506 4.383-1.6 2.774-2.294 3.939-1.099 1.869-1.416 2.388-1.025 1.713-1.317 2.18-.95 1.558-1.514 2.447-.866 1.38-.833 1.312-.802 1.246-.77 1.18-.739 1.111-.935 1.38-.664.956-.425.6-.41.572-.59.8-.376.497-.537.69-.171.214c-10.76 13.37-22.496 23.493-36.93 29.334-30.346 14.262-68.07 14.929-97.202-2.704l72.347-124.682 2.8-1.72c49.257-29.326 73.08 1.117 94.02 40.927z">
+                                </path>
+                                <path fill="url(#BG2)"
+                                    d="M444.31 229.726c-46.27-80.956-94.1-157.228-149.043-45.344-7.516 14.384-12.995 42.337-25.267 42.337v-.142c-12.272 0-17.75-27.953-25.265-42.337C189.79 72.356 141.96 148.628 95.69 229.584c-3.483 6.106-6.828 11.932-9.69 16.996 106.038-67.127 97.11 135.667 184 137.278V384c86.891-1.611 77.962-204.405 184-137.28-2.86-5.062-6.206-10.888-9.69-16.994">
+                                </path>
+                                <path fill="url(#BG3)"
+                                    d="M450 384c26.509 0 48-21.491 48-48s-21.491-48-48-48-48 21.491-48 48 21.491 48 48 48">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div id="sub-head">
+                        <p>Management</p>
+                    </div>
+                    <div class="module-container">
+                        <div class="module active-module">
+                            <div class="first">
+                                <img src="../assets/useIcon.png" id="user" alt="">
+                                <p style="margin-left: -11px;">User</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="user-work">
+                        <div class="module-container">
+                            <div class="module active">
+                                <div class="first">
+                                    <div class="circle"></div>
+                                    <a href="./Dashboard.html">Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-container">
+                            <div class="module">
+                                <div class="first">
+                                    <div class="circle"></div>
+                                    <a href="./Cards.html">Cards</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-container">
+                            <div class="module">
+                                <div class="first">
+                                    <div class="circle"></div>
+                                    <a href="./List.html">List</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-container">
+                            <div class="module">
+                                <div class="first">
+                                    <div class="circle"></div>
+                                    <a href="../pages/Create.html">Create</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-container">
+                            <div class="module">
+                                <div class="first">
+                                    <div class="circle"></div>
+                                    <a href="../pages/Edit.html">Edit</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-container">
+                            <div class="module">
+                                <div class="first">
+                                    <div class="circle"></div>
+                                    <a href="../pages/Account.html">Account</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="rightbar">
+                    <div id="topbar">
+                        <div id="tleft">
+                            <div class="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" style="scale: 1.5;"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                    class="component-iconify MuiBox-root css-1t9pz9x iconify iconify--eva"
+                                    viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="m20.71 19.29l-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8a7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42M5 11a6 6 0 1 1 6 6a6 6 0 0 1-6-6">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="round1" style=" margin-left: 10px;">
+                                <h1>⌘K</h1>
+                            </div>
+
+                        </div>
+                        <div id="tright">
+                            <div class="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svgs"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                    class="component-iconify MuiBox-root css-1virv8 iconify iconify--flagpack"
+                                    width="1.34em" height="1em" viewBox="0 0 32 24">
+                                    <g fill="none">
+                                        <path fill="#2E42A5" fill-rule="evenodd" d="M0 0v24h32V0z" clip-rule="evenodd">
+                                        </path>
+                                        <mask id="iconifyReact124" width="32" height="24" x="0" y="0"
+                                            maskUnits="userSpaceOnUse" style="mask-type:luminance">
+                                            <path fill="#fff" fill-rule="evenodd" d="M0 0v24h32V0z" clip-rule="evenodd">
+                                            </path>
+                                        </mask>
+                                        <g mask="url(#iconifyReact124)">
+                                            <path fill="#fff"
+                                                d="m-3.563 22.285l7.041 2.979L32.16 3.238l3.714-4.426l-7.53-.995l-11.698 9.491l-9.416 6.396z">
+                                            </path>
+                                            <path fill="#F50100" d="M-2.6 24.372L.989 26.1L34.54-1.599h-5.037z"></path>
+                                            <path fill="#fff"
+                                                d="m35.563 22.285l-7.042 2.979L-.159 3.238l-3.715-4.426l7.53-.995l11.698 9.491l9.416 6.396z">
+                                            </path>
+                                            <path fill="#F50100"
+                                                d="m35.323 23.783l-3.588 1.728l-14.286-11.86l-4.236-1.324l-17.445-13.5H.806l17.434 13.18l4.631 1.588z">
+                                            </path>
+                                            <mask id="iconifyReact125" fill="#fff">
+                                                <path fill-rule="evenodd"
+                                                    d="M19.778-2h-7.556V8H-1.973v8h14.195v10h7.556V16h14.25V8h-14.25z"
+                                                    clip-rule="evenodd"></path>
+                                            </mask>
+                                            <path fill="#F50100" fill-rule="evenodd"
+                                                d="M19.778-2h-7.556V8H-1.973v8h14.195v10h7.556V16h14.25V8h-14.25z"
+                                                clip-rule="evenodd"></path>
+                                            <path fill="#fff"
+                                                d="M12.222-2v-2h-2v2zm7.556 0h2v-2h-2zM12.222 8v2h2V8zM-1.973 8V6h-2v2zm0 8h-2v2h2zm14.195 0h2v-2h-2zm0 10h-2v2h2zm7.556 0v2h2v-2zm0-10v-2h-2v2zm14.25 0v2h2v-2zm0-8h2V6h-2zm-14.25 0h-2v2h2zm-7.556-8h7.556v-4h-7.556zm2 8V-2h-4V8zm-16.195 2h14.195V6H-1.973zm2 6V8h-4v8zm12.195-2H-1.973v4h14.195zm2 12V16h-4v10zm5.556-2h-7.556v4h7.556zm-2-8v10h4V16zm16.25-2h-14.25v4h14.25zm-2-6v8h4V8zm-12.25 2h14.25V6h-14.25zm-2-12V8h4V-2z"
+                                                mask="url(#iconifyReact125)"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svgs"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                    class="component-iconify MuiBox-root css-9uy14h iconify iconify--solar" width="1em"
+                                    height="1em" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M18.75 9v.704c0 .845.24 1.671.692 2.374l1.108 1.723c1.011 1.574.239 3.713-1.52 4.21a25.794 25.794 0 0 1-14.06 0c-1.759-.497-2.531-2.636-1.52-4.21l1.108-1.723a4.393 4.393 0 0 0 .693-2.374V9c0-3.866 3.022-7 6.749-7s6.75 3.134 6.75 7"
+                                        opacity=".5"></path>
+                                    <path fill="currentColor"
+                                        d="M12.75 6a.75.75 0 0 0-1.5 0v4a.75.75 0 0 0 1.5 0zM7.243 18.545a5.002 5.002 0 0 0 9.513 0c-3.145.59-6.367.59-9.513 0">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svgs"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                    class="component-iconify MuiBox-root css-9uy14h iconify iconify--solar" width="1em"
+                                    height="1em" viewBox="0 0 24 24">
+                                    <circle cx="15" cy="6" r="3" fill="currentColor" opacity=".4"></circle>
+                                    <ellipse cx="16" cy="17" fill="currentColor" opacity=".4" rx="5" ry="3"></ellipse>
+                                    <circle cx="9.001" cy="6" r="4" fill="currentColor"></circle>
+                                    <ellipse cx="9.001" cy="17.001" fill="currentColor" rx="7" ry="4"></ellipse>
+                                </svg>
+                            </div>
+                            <div class="round" style="margin-right: 30px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="svgs"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                    class="component-iconify MuiBox-root css-9uy14h iconify iconify--solar" width="1em"
+                                    height="1em" viewBox="0 0 24 24">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M14.279 2.152C13.909 2 13.439 2 12.5 2s-1.408 0-1.779.152a2.008 2.008 0 0 0-1.09 1.083c-.094.223-.13.484-.145.863a1.615 1.615 0 0 1-.796 1.353a1.64 1.64 0 0 1-1.579.008c-.338-.178-.583-.276-.825-.308a2.026 2.026 0 0 0-1.49.396c-.318.242-.553.646-1.022 1.453c-.47.807-.704 1.21-.757 1.605c-.07.526.074 1.058.4 1.479c.148.192.357.353.68.555c.477.297.783.803.783 1.361c0 .558-.306 1.064-.782 1.36c-.324.203-.533.364-.682.556a1.99 1.99 0 0 0-.399 1.479c.053.394.287.798.757 1.605c.47.807.704 1.21 1.022 1.453c.424.323.96.465 1.49.396c.242-.032.487-.13.825-.308a1.64 1.64 0 0 1 1.58.008c.486.28.774.795.795 1.353c.015.38.051.64.145.863c.204.49.596.88 1.09 1.083c.37.152.84.152 1.779.152s1.409 0 1.779-.152a2.008 2.008 0 0 0 1.09-1.083c.094-.223.13-.483.145-.863c.02-.558.309-1.074.796-1.353a1.64 1.64 0 0 1 1.579-.008c.338.178.583.276.825.308c.53.07 1.066-.073 1.49-.396c.318-.242.553-.646 1.022-1.453c.47-.807.704-1.21.757-1.605a1.99 1.99 0 0 0-.4-1.479c-.148-.192-.357-.353-.68-.555c-.477-.297-.783-.803-.783-1.361c0-.558.306-1.064.782-1.36c.324-.203.533-.364.682-.556a1.99 1.99 0 0 0 .399-1.479c-.053-.394-.287-.798-.757-1.605c-.47-.807-.704-1.21-1.022-1.453a2.026 2.026 0 0 0-1.49-.396c-.242.032-.487.13-.825.308a1.64 1.64 0 0 1-1.58-.008a1.615 1.615 0 0 1-.795-1.353c-.015-.38-.051-.64-.145-.863a2.007 2.007 0 0 0-1.09-1.083"
+                                        clip-rule="evenodd" opacity=".5"></path>
+                                    <path fill="currentColor"
+                                        d="M15.523 12c0 1.657-1.354 3-3.023 3c-1.67 0-3.023-1.343-3.023-3S10.83 9 12.5 9c1.67 0 3.023 1.343 3.023 3">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="round">
+                                <img src="../assets/avatar_25.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="heading">
+                        <div id="sub-heading-1">
+                            <h1>Profile</h1>
+                            <div class="userList">
+                                <li>Dashboard</li>
+                                <li>User</li>
+                                <li>Jaydon Frankie</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="profile-container">
+                        <div id="profile-cover">
+                            <div id="tsp">
+                                <div class="card">
+                                    <div class="circle"></div>
+                                    <div id="userInfo">
+                                        <h1>Jaydon Frankie</h1>
+                                        <p>Data Analyst</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bottom-cover">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" role="img"
+                                class="MuiTab-iconWrapper MuiBox-root css-9uy14h iconify iconify--solar" width="1.5em"
+                                height="1.5em" viewBox="0 0 24 24">
+                                <path fill="currentColor" fill-rule="evenodd"
+                                    d="M10 4h4c3.771 0 5.657 0 6.828 1.172C22 6.343 22 8.229 22 12c0 3.771 0 5.657-1.172 6.828C19.657 20 17.771 20 14 20h-4c-3.771 0-5.657 0-6.828-1.172C2 17.657 2 15.771 2 12c0-3.771 0-5.657 1.172-6.828C4.343 4 6.229 4 10 4m3.25 5a.75.75 0 0 1 .75-.75h5a.75.75 0 0 1 0 1.5h-5a.75.75 0 0 1-.75-.75m1 3a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75m1 3a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1-.75-.75M11 9a2 2 0 1 1-4 0a2 2 0 0 1 4 0m-2 8c4 0 4-.895 4-2s-1.79-2-4-2s-4 .895-4 2s0 2 4 2"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <a href="../pages/Dashboard.html">Profile</a>
+                        </div>
+
+                    </div>
+                    <div id="user-details">
+                        <div class="left">
+                            <div id="followers">
+                                <div class="box">
+                                    <h1>1,947</h1>
+                                    <p>Followers</p>
+                                </div>
+                                <div class="box">
+                                    <h1>9,124</h1>
+                                    <p>Following</p>
+                                </div>
+                            </div>
+                            <div id="about">
+                                <h1>About</h1>
+                                <p>Tart I love sugar plum I love oat cake. Sweet roll caramels I love jujubes. Topping
+                                    cake wafer..</p>
+                                <div id="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                        fill="currentColor">
+                                        <path
+                                            d="M18.364 17.364L12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364ZM12 15C14.2091 15 16 13.2091 16 11C16 8.79086 14.2091 7 12 7C9.79086 7 8 8.79086 8 11C8 13.2091 9.79086 15 12 15ZM12 13C10.8954 13 10 12.1046 10 11C10 9.89543 10.8954 9 12 9C13.1046 9 14 9.89543 14 11C14 12.1046 13.1046 13 12 13Z">
+                                        </path>
+                                    </svg>
+                                    <p>Live at <span><a href="#">Andorra</a></span></p>
+                                </div>
+                                <div id="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" role="img"
+                                        class="component-iconify MuiBox-root css-1anrb5w iconify iconify--fluent"
+                                        width="1em" height="1em" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M22 8.608v8.142a3.25 3.25 0 0 1-3.066 3.245L18.75 20H5.25a3.25 3.25 0 0 1-3.245-3.066L2 16.75V8.608l9.652 5.056a.75.75 0 0 0 .696 0zM5.25 4h13.5a3.25 3.25 0 0 1 3.234 2.924L12 12.154l-9.984-5.23a3.25 3.25 0 0 1 3.048-2.919zh13.5z">
+                                        </path>
+                                    </svg>
+                                    <p>ashlynn_ohara62@gmail.com</p>
+                                </div>
+                                <div id="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" role="img"
+                                        class="component-iconify MuiBox-root css-9uy14h iconify iconify--ic" width="1em"
+                                        height="1em" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M13 16h-2c-.55 0-1-.45-1-1H3.01v4c0 1.1.9 2 2 2H19c1.1 0 2-.9 2-2v-4h-7c0 .55-.45 1-1 1m7-9h-4c0-2.21-1.79-4-4-4S8 4.79 8 7H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-1c0-.55.45-1 1-1h2c.55 0 1 .45 1 1v1h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2M10 7c0-1.1.9-2 2-2s2 .9 2 2H9.99z">
+                                        </path>
+                                    </svg>
+                                    <p>Data Analyst at Gleichner, Mueller and Tromp</p>
+                                </div>
+                                <div id="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" role="img"
+                                        class="component-iconify MuiBox-root css-9uy14h iconify iconify--ic" width="1em"
+                                        height="1em" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M13 16h-2c-.55 0-1-.45-1-1H3.01v4c0 1.1.9 2 2 2H19c1.1 0 2-.9 2-2v-4h-7c0 .55-.45 1-1 1m7-9h-4c0-2.21-1.79-4-4-4S8 4.79 8 7H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-1c0-.55.45-1 1-1h2c.55 0 1 .45 1 1v1h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2M10 7c0-1.1.9-2 2-2s2 .9 2 2H9.99z">
+                                        </path>
+                                    </svg>
+                                    <p>Studied at Nikolaus - Leuschke</p>
+                                </div>
+                            </div>
+                            <div id="about">
+                                <h1>Social</h1>
+
+                                <div id="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" role="img"
+                                        class="component-iconify MuiBox-root css-1rq05dv iconify iconify--eva"
+                                        width="1em" height="1em" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M17 3.5a.5.5 0 0 0-.5-.5H14a4.77 4.77 0 0 0-5 4.5v2.7H6.5a.5.5 0 0 0-.5.5v2.6a.5.5 0 0 0 .5.5H9v6.7a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-6.7h2.62a.5.5 0 0 0 .49-.37l.72-2.6a.5.5 0 0 0-.48-.63H13V7.5a1 1 0 0 1 1-.9h2.5a.5.5 0 0 0 .5-.5Z">
+                                        </path>
+                                    </svg>
+                                    <p>https://www.facebook.com/caitlyn.kerluke</p>
+                                </div>
+
+                                <div id="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" role="img"
+                                        class="component-iconify MuiBox-root css-1y7go8b iconify iconify--ant-design"
+                                        width="1em" height="1em" viewBox="0 0 1024 1024">
+                                        <path fill="currentColor"
+                                            d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3S645.3 585.4 645.3 512S585.4 378.7 512 378.7M911.8 512c0-55.2.5-109.9-2.6-165c-3.1-64-17.7-120.8-64.5-167.6c-46.9-46.9-103.6-61.4-167.6-64.5c-55.2-3.1-109.9-2.6-165-2.6c-55.2 0-109.9-.5-165 2.6c-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6c46.9 46.9 103.6 61.4 167.6 64.5c55.2 3.1 109.9 2.6 165 2.6c55.2 0 109.9.5 165-2.6c64-3.1 120.8-17.7 167.6-64.5c46.9-46.9 61.4-103.6 64.5-167.6c3.2-55.1 2.6-109.8 2.6-165M512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9S717.1 398.5 717.1 512S625.5 717.1 512 717.1m213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9s47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9">
+                                        </path>
+                                    </svg>
+                                    <p>https://www.instagram.com/caitlyn.kerluke</p>
+                                </div>
+                                <div id="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" role="img"
+                                        class="component-iconify MuiBox-root css-1jfikwp iconify iconify--eva"
+                                        width="1em" height="1em" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M15.15 8.4a5.83 5.83 0 0 0-5.85 5.82v5.88a.9.9 0 0 0 .9.9h2.1a.9.9 0 0 0 .9-.9v-5.88a1.94 1.94 0 0 1 2.15-1.93a2 2 0 0 1 1.75 2v5.81a.9.9 0 0 0 .9.9h2.1a.9.9 0 0 0 .9-.9v-5.88a5.83 5.83 0 0 0-5.85-5.82">
+                                        </path>
+                                        <rect width="4.5" height="11.7" x="3" y="9.3" fill="currentColor" rx=".9"
+                                            ry=".9"></rect>
+                                        <circle cx="5.25" cy="5.25" r="2.25" fill="currentColor"></circle>
+                                    </svg>
+                                    <p>https://www.linkedin.com/in/caitlyn.kerluke</p>
+                                </div>
+                                <div id="location">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" role="img"
+                                        class="component-iconify MuiBox-root css-1nkvkrp iconify iconify--eva"
+                                        width="1em" height="1em" viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M8.08 20A11.07 11.07 0 0 0 19.52 9A8.09 8.09 0 0 0 21 6.16a.44.44 0 0 0-.62-.51a1.88 1.88 0 0 1-2.16-.38a3.89 3.89 0 0 0-5.58-.17A4.13 4.13 0 0 0 11.49 9C8.14 9.2 5.84 7.61 4 5.43a.43.43 0 0 0-.75.24a9.68 9.68 0 0 0 4.6 10.05A6.73 6.73 0 0 1 3.38 18a.45.45 0 0 0-.14.84A11 11 0 0 0 8.08 20">
+                                        </path>
+                                    </svg>
+                                    <p>https://www.twitter.com/caitlyn.kerluke</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div id="create-post">
+                                <textarea rows="8" cols="10"
+                                    placeholder="Share what you are thinking here..."></textarea>
+                                <div id="media">
+                                    <div>
+                                        <button>Imgage / Video</button>
+                                        <button>Streaming</button>
+                                    </div>
+                                    <button id="post">Post</button>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <div class="post-header">
+                                    <div class="post-header-left">
+                                        <div class="rounded">
+                                            <img src="../assets/avatar_25.jpg" alt="">
+                                        </div>
+                                        <div class="postInfo">
+                                            <h4>Jaydon Frankie</h4>
+                                            <p>07 Jun 2024</p>
+                                        </div>
+                                    </div>
+                                    <div class="post-header-right">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                            class="component-iconify MuiBox-root css-1t9pz9x iconify iconify--eva"
+                                            width="1em" height="1em" viewBox="0 0 24 24">
+                                            <circle cx="12" cy="12" r="2" fill="currentColor"></circle>
+                                            <circle cx="12" cy="5" r="2" fill="currentColor"></circle>
+                                            <circle cx="12" cy="19" r="2" fill="currentColor"></circle>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="post-info">
+                                    <p>The sun slowly set over the horizon, painting the sky in vibrant hues of orange
+                                        and pink.</p>
+                                    <div id="post-image">
+                                        <img src="../assets/travel_2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="views">
+                                    <div class="likes">
+                                        <div class="likes-left">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                                class="component-iconify MuiBox-root css-a6775w iconify iconify--solar"
+                                                width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                                                <path fill="silver"
+                                                    d="M2 9.137C2 14 6.02 16.591 8.962 18.911C10 19.729 11 20.5 12 20.5s2-.77 3.038-1.59C17.981 16.592 22 14 22 9.138c0-4.863-5.5-8.312-10-3.636C7.5.825 2 4.274 2 9.137">
+                                                </path>
+                                            </svg>
+                                            <p>20</p>
+                                            <div class="peoples">
+                                                <div>
+                                                    <img src="https://api-prod-minimal-v510.vercel.app/assets/images/avatar/avatar_3.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div>
+                                                    <img src="https://api-prod-minimal-v510.vercel.app/assets/images/avatar/avatar_4.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div>
+                                                    <img src="https://api-prod-minimal-v510.vercel.app/assets/images/avatar/avatar_5.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div>
+                                                    +17
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="likes-right">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                                class="component-iconify MuiBox-root css-1t9pz9x iconify iconify--solar"
+                                                width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                                                <defs>
+                                                    <mask id="iconifyReact61">
+                                                        <g fill="none">
+                                                            <path fill="#fff"
+                                                                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12c0 1.6.376 3.112 1.043 4.453c.178.356.237.763.134 1.148l-.595 2.226a1.3 1.3 0 0 0 1.591 1.592l2.226-.596a1.634 1.634 0 0 1 1.149.133A9.958 9.958 0 0 0 12 22">
+                                                            </path>
+                                                            <path fill="#000"
+                                                                d="M15 12a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-4 0a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-4 0a1 1 0 1 0 2 0a1 1 0 0 0-2 0">
+                                                            </path>
+                                                        </g>
+                                                    </mask>
+                                                </defs>
+                                                <path fill="currentColor" d="M0 0h24v24H0z" mask="url(#iconifyReact61)">
+                                                </path>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                                class="component-iconify MuiBox-root css-1t9pz9x iconify iconify--solar"
+                                                width="1.5em" height="1.5em" viewBox="0 0 24 24">
+                                                <path fill="currentColor" fill-rule="evenodd"
+                                                    d="M13.803 5.333c0-1.84 1.5-3.333 3.348-3.333A3.341 3.341 0 0 1 20.5 5.333c0 1.841-1.5 3.334-3.349 3.334a3.346 3.346 0 0 1-2.384-.994l-4.635 3.156a3.336 3.336 0 0 1-.182 1.917l5.082 3.34a3.346 3.346 0 0 1 2.12-.753a3.341 3.341 0 0 1 3.348 3.334C20.5 20.507 19 22 17.151 22a3.341 3.341 0 0 1-3.348-3.333a3.3 3.3 0 0 1 .289-1.356L9.05 14a3.346 3.346 0 0 1-2.202.821A3.34 3.34 0 0 1 3.5 11.487a3.34 3.34 0 0 1 3.348-3.333c1.064 0 2.01.493 2.623 1.261l4.493-3.059a3.317 3.317 0 0 1-.161-1.023"
+                                                    clip-rule="evenodd"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
